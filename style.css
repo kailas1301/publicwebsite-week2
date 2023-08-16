@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#aboutheading
+{
+    text-align: center;
+}
+
+#aboutcontainer
+{
+    align-items: center;
+}
+
+.p-3
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.d-block
+{
+
+    background-size: cover;
+
+}
+
+
+.row g-2
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.imagecontainer img
+{
+    max-width: 40%;
+    
+}
+
+.imagecontainer
+{
+   display: flex;
+   justify-content: center;
+    padding: 3%;
+}
