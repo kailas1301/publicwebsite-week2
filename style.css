@@ -50,3 +50,42 @@
    justify-content: center;
     padding: 3%;
 }
+
+#socialicons
+{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+#productcol
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons img 
+{
+    width: 50px;
+}
+
+/* Adjust image size for screens below the breakpoint */
+@media (max-width : 1400px) {
+    .icons img {
+        width: 40px;
+        height: 40px;
+        
+    }
+
+    @media (max-width : 992px) {
+        .icons img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+  
+    
+    
+}
